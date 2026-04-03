@@ -212,6 +212,19 @@ INSTRUCCIONES.md
 
 CuadernoCeleste-CuadraturasNCuerpos_Parte1-JorgeZuluaga.ipynb
 
+Descargas.ipynb
 
 
 
+pymcel\data
+
+
+pymcel/data/de430_tech-comments.txt
+pymcel/data/de430.bsp
+pymcel/data/earth_fixed.tf
+pymcel/data/earth_latest_high_prec.bpc
+pymcel/data/gm_de431.tpc
+pymcel/data/kernels.desc
+pymcel/data/latest_leapseconds.tls
+pymcel/data/naif0012.tls
+pymcel/data/pck00011.tpc
