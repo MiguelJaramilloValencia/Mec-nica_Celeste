@@ -5,7 +5,7 @@
 
 ## Archivos revisados
 
-- Proyecto_Apophis.ipynb (entregado)
+- Proyecto Apophis/Proyecto_Apophis.ipynb (movido de ubicación)
 
 ## Historial de commits
 
@@ -29,7 +29,7 @@
 Interpretación breve: Ritmo aceptable con evidencia de trabajo distribuido; se observó una pausa larga de 49 días.
 ## Retroalimentación
 
-- Archivo revisado: Proyecto_Apophis.ipynb
+- Archivo revisado: Proyecto Apophis/Proyecto_Apophis.ipynb (movido de ubicación)
 
 ### Aspectos positivos
 
@@ -37,21 +37,29 @@ Interpretación breve: Ritmo aceptable con evidencia de trabajo distribuido; se 
 
 ### Aspectos por mejorar
 
-- Dividir el informe en secciones usando títulos y poniendo una introducción en cada sección.
-- La explicación previa al código es parcial; conviene anteceder cada bloque importante con una celda de texto breve.
-- El notebook tiene warnings: C:\Users\ASUS\AppData\Local\Temp\ipykernel_3436\4024442103.py:26: RuntimeWarning: invalid value encountered in arccos
+- Dividir el informe en secciones usando títulos y poniendo una introducción en cada sección. [Mejorado]
+- La explicación previa al código es parcial; conviene anteceder cada bloque importante con una celda de texto breve. [Mejorado]
+- El notebook tiene warnings: C:\Users\ASUS\AppData\Local\Temp\ipykernel_3436\4024442103.py:26: RuntimeWarning: invalid value encountered in arccos [Mejorado]
   f_p_tierra = np.arccos(np.sum(e_vec_tierra * r_relativo_tierra, axis=1) / (e_tierra * distancia_tierra)) #Anomalía verdadera
   Debes revisar por qué están esos warnings y corregir.
-- Se recomienda ampliar la comparación entre enfoques para fortalecer la validación de resultados.
-- Falta fortalecer la parte de análisis y reflexión; no basta con mostrar resultados sin interpretarlos.
-- Se observa código extenso en varios puntos; conviene reducir repetición y encapsular rutinas.
-- No veo ningún cálculo con integración de N-cuerpos. Además hay mucho tema en el problema de los N-cuerpos que se podría haber aplicado en el proyecto.
-- No aparece la fecha, ni la distancia a la que se aproximara.
-- No hay ninguna aplicación de la teoría del problema de los dos cuerpos.
-- No hay ninguna aplicación de la teoría del problema de los tres cuerpos.
+- Se recomienda ampliar la comparación entre enfoques para fortalecer la validación de resultados. [Mejorado]
+- Falta fortalecer la parte de análisis y reflexión; no basta con mostrar resultados sin interpretarlos. [Mejorado]
+- Se observa código extenso en varios puntos; conviene reducir repetición y encapsular rutinas. [Mejorado]
+- No veo ningún cálculo con integración de N-cuerpos. Además hay mucho tema en el problema de los N-cuerpos que se podría haber aplicado en el proyecto. [Mejorado]
+- No aparece la fecha, ni la distancia a la que se aproximara. [Mejorado]
+- No hay ninguna aplicación de la teoría del problema de los dos cuerpos. [Mejorado]
+- No hay ninguna aplicación de la teoría del problema de los tres cuerpos. [Mejorado]
 
 ### Valoración global
 
-- El trabajo tiene avances técnicos, pero necesita mejoras de fondo en comunicación de resultados y/o cumplimiento explícito del objetivo.
-- El trabajo es completamente inaceptable como está. Practicamente hay que hacerlo otra vez.
-- No cumple con los objetivos de aplicar exhaustivamente la teoría del curso más allá de consultar la posición del asteroide.
+- El trabajo finalmente cumple con los objetivos propuestos.
+- No hay ningún gráfico en el Notebook, esto impide evaluar apropiadamente los resultados. Se logró correr el notebook, pero debe tener más cuidado para la próxima.
+
+## Valoración final
+
+- Mejoras implementadas: 5.00 (70%)
+- Aplicación al repositorio: 4.25 (10%)
+- Aspectos positivos: 2.50 (10%)
+- Valoración global: 2.50 (10%)
+
+**Nota final (redondeada)**: 0.7×5.00 + 0.1×4.25 + 0.1×2.50 + 0.1×2.50 = (redondeado) 4.4
